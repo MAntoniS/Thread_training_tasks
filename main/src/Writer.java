@@ -1,4 +1,4 @@
-import static ThreadColor.Color.*;
+import static thread_color.Color.*;
 
 public class Writer implements Runnable {
 
@@ -13,7 +13,7 @@ public class Writer implements Runnable {
         String [] messages = {
                 ANSI_GREEN + "Roses are red",
                 ANSI_BLUE + "Cabbage is best",
-                ANSI_PUTPLE + "Furthermore Cartago",
+                ANSI_PURPLE+ "Furthermore Cartago",
                 ANSI_CYAN + "Delenda est "
         };
         for (int i = 0; i < messages.length; i ++){
